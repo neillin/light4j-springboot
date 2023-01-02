@@ -1,0 +1,21 @@
+{
+  "resources":{
+  "includes":[
+    {
+      "pattern":"^META-INF/services/.*\\..*$"
+    }, 
+    {
+      "pattern":"^config/.*\\..*$"
+    },
+    {
+      "pattern":"\\Qlogback.xml\\E"
+    },
+    {
+      "pattern":"\\Qorg/slf4j/impl/StaticLoggerBinder.class\\E"
+    }
+  ]},
+  "bundles":[{
+      "name":"jsv-messages",
+      "locales":[""]
+    }]
+}
